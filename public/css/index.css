@@ -1,0 +1,29 @@
+* {
+    text-align: center;
+    font-family: 'Kirang Haerang';
+    font-size: 20px;
+}
+#subtitle {
+    font-size: 30px;
+    margin-top: 0;
+}
+#title {
+    font-size: 100px;
+    margin-bottom: 0;
+}
+input {
+    background-color: black;
+    color: white;
+    margin-top: 50px;
+    font-family: 'Gaegu';
+    text-align: right;  
+    padding: 8px 25px;
+    border: 5px solid black;
+    border-radius: 30px;
+    outline: 0;
+    font-weight: bold;
+}
+input::-webkit-input-placeholder {
+    color: white;
+    text-align: center;
+}

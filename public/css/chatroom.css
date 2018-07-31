@@ -1,0 +1,108 @@
+/* Global */
+body {
+    background-color: #000000;
+    color: white; 
+    font-family: 'DejaVu Sans Mono', monospace;
+    font-size: 13px;
+    margin: 0;
+    height: 100%;
+}
+p {
+    display: inline-block;
+}
+
+.wrapper {
+	display: grid;
+	grid-template-columns: 25% 50% 25%;
+	grid-template-rows: 92% 8%;
+	width: 100vw;
+	height: 100vh;
+}
+
+#message-flow {
+    color: white;
+    padding: 30px 10px;   
+    border-right: 1px #bbb solid;
+    border-left: 1px #bbb solid;
+    text-align: justify;
+    word-wrap: break-word;
+    overflow: auto;
+}
+
+#users-box {
+    color: #00FF00;
+    margin: 15px 0 0 10px;
+}
+
+#online-users {
+    color: #00FFC0;
+    margin: 0 10px 10px 20px;
+}
+#online-users p {
+    display: block;
+}
+
+#chat-form {
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+#chat-input {
+    display: block;
+    font-size: 1em;
+    background-color: black;
+    caret-color: white;
+    color: #FF00FF;
+    outline: none;
+    box-sizing:border-box;
+    height: 100%;
+    padding: 20px 20px 10px 20px;
+    overflow: hidden;
+    resize: none;
+    width: 50%;
+    margin: 0 auto;
+}
+
+user {
+    color: white;
+}
+
+.msg {
+    padding: 0 10px;
+}
+
+.username {
+    display: inline;
+    color: white;
+    padding-right: 7px;
+}
+
+.error {
+    color: #FFFF00;
+}
+
+.user {
+    color: #FF00FF;
+}
+
+.me {
+    color: #00C0FF;
+}
+
+.info {
+    color: #00FF00;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+    width: 3px;
+}
+::-webkit-scrollbar-track {
+    background: black; 
+}
+::-webkit-scrollbar-thumb {
+    background: #FF00FF;
+    border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+}
